@@ -48,6 +48,7 @@ public class No496 {
 
     /**
      * 大于某个数的第一个元素----单调栈
+     * 找出某个数左/右边离它最近的且比它大/小的数
      * @param nums1
      * @param nums2
      * @return
