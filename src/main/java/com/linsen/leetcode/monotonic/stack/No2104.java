@@ -1,4 +1,4 @@
-package com.linsen.leetcode.day_20220922;
+package com.linsen.leetcode.monotonic.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
