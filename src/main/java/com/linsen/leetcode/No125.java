@@ -8,8 +8,17 @@ package com.linsen.leetcode;
 public class No125 {
 
 
+    public static void main(String[] args) {
 
-    public boolean isPalindrome(String s){
+        String s = "race a car";
+
+        System.out.println(isPalindrome(s));
+
+    }
+
+
+
+    public static boolean isPalindrome(String s){
         int length = s.length();
         int i = 0;
         int j = length - 1;
@@ -29,6 +38,8 @@ public class No125 {
                 isPalindrome = false;
                 break;
             }
+            i++;
+            j--;
         }
         return isPalindrome;
     }
